@@ -2,23 +2,12 @@
 
 Ionic 2 Example App with Leaflet using OpenStreetMap Layers.
 
-### how to build to this step
+## how to continue
 
-	# ionic start
-	ionic start ionic2-map-leaflet tabs --v2
+	git clone https://github.com/SBejga/ionic2-map-leaflet
+	cd ionic2-map-leaflet
+	npm install
 
-	# --- commit ---
+## steps to reproduce this project
 
-	# add leaflet lib
-	mkdir src/assets/images/
-	cp node_modules/leaflet/dist/leaflet.css src/assets
-	cp node_modules/leaflet/dist/images/* src/assets/images
-
-	# add page to show map
-	ionic g page map
-	# update 'src/pages/map/*'
-	# update 'src/pages/tabs/*'
-	# update declarations, entryComponents in 'app.module.ts'
-	# include `external` leaflet.css from assets in 'index.html'
-
-	# --- commit ---
+You can find the steps I did to reach this state of the project in [projectSteps.md](projectSteps.md)
