@@ -8,6 +8,11 @@
 
   <ion-navbar>
     <ion-title>Map</ion-title>
+    <ion-buttons end>
+       <button ion-button icon-only (click)="toggleFollow()">
+         <ion-icon name="locate" [color]="following ? 'secondary' : 'danger'"></ion-icon> {{following ? 'On' : 'Off'}}
+       </button>
+    </ion-buttons>
   </ion-navbar>
 
 </ion-header>
