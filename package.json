@@ -1,7 +1,7 @@
 {
-  "name": "ionic-hello-world",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "ion2-map-leaflet",
+  "author": "Sebastian Bejga",
+  "homepage": "https://github.com/SBejga/ionic2-map-leaflet",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -10,31 +10,31 @@
     "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {
-    "@angular/common": "2.4.8",
-    "@angular/compiler": "2.4.8",
-    "@angular/compiler-cli": "2.4.8",
-    "@angular/core": "2.4.8",
-    "@angular/forms": "2.4.8",
-    "@angular/http": "2.4.8",
-    "@angular/platform-browser": "2.4.8",
-    "@angular/platform-browser-dynamic": "2.4.8",
-    "@angular/platform-server": "2.4.8",
-    "@ionic-native/core": "3.1.0",
-    "@ionic-native/splash-screen": "3.1.0",
-    "@ionic-native/status-bar": "3.1.0",
-    "@ionic/storage": "2.0.0",
+    "@angular/common": "4.1.3",
+    "@angular/compiler": "4.1.3",
+    "@angular/compiler-cli": "4.1.3",
+    "@angular/core": "4.1.3",
+    "@angular/forms": "4.1.3",
+    "@angular/http": "4.1.3",
+    "@angular/platform-browser": "4.1.3",
+    "@angular/platform-browser-dynamic": "4.1.3",
+    "@angular/platform-server": "4.1.3",
+    "@ionic-native/core": "3.10.2",
+    "@ionic-native/splash-screen": "3.10.2",
+    "@ionic-native/status-bar": "3.10.2",
+    "@ionic/storage": "2.0.1",
     "@types/leaflet": "^1.0.59",
-    "ionic-angular": "2.3.0",
+    "ionic-angular": "3.4.2",
     "ionicons": "3.0.0",
     "leaflet": "^1.0.3",
-    "rxjs": "5.0.1",
-    "sw-toolbox": "3.4.0",
-    "zone.js": "0.7.2"
+    "rxjs": "5.4.0",
+    "sw-toolbox": "3.6.0",
+    "zone.js": "0.8.12"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "1.1.4",
+    "@ionic/app-scripts": "1.3.7",
     "@ionic/cli-plugin-ionic-angular": "1.3.1",
-    "typescript": "2.0.9"
+    "typescript": "2.3.3"
   },
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
