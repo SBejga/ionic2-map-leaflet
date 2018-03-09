@@ -18,3 +18,12 @@
         # include `external` leaflet.css from assets in 'index.html'
 
         # --- commit ---
+
+##### Geolocation
+
+        # see https://ionicframework.com/docs/native/geolocation/
+        npm install --save-dev --save-exact @ionic/cli-plugin-cordova@latest
+        ionic cordova plugin add cordova-plugin-geolocation
+        npm install --save @ionic-native/geolocation
+        # update 'src/app/app.module.ts'
+        # update 'src/pages/map/map.ts'
